@@ -1,0 +1,89 @@
+/* #ffffff white*/
+/* #2196F3 accent*/
+/* #212121 title color*/
+/* #757575 main color*/
+/* #000000 black*/
+/* #F5F4FA bg color second*/
+:root {
+  --main-color: #757575;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --logo-color: #000000;
+  --white-color: #ffffff;
+  --second-bg-color: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--main-color);
+}
+
+.hero {
+  background-color: var(--second-bg-color);
+}
+
+.hero .title {
+  color: var(--white-color);
+}
+
+.hero .button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--logo-color);
+}
+
+.half-logo {
+  color: var(--accent-color);
+}
+
+/* navigation */
+.site-nav .item {
+  color: var(--title-color);
+}
+
+.site-nav .item:hover,
+.site-nav .item:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--title-color);
+}
+
+.features .features-title {
+  color: var(--title-color);
+}
+
+.team .team-title {
+  color: var(--title-color);
+}
+
+.button {
+  cursor: pointer;
+}
+
+.section > team {
+  background-color: #f5f4fa;
+}
+.footer {
+  background-color: var(--second-bg-color);
+}
+
+.footer-logo {
+  color: var(--white-color);
+}
+
+.contacts-address {
+  color: var(--white-color);
+}
+
+.contacts-nav {
+  color: rgba(255, 255, 255, 0.6);
+}
